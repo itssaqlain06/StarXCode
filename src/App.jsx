@@ -1,9 +1,9 @@
-import Header from './components/Header'
+import { SPA } from './pages/SPA'
 
 export default function App() {
   return (
     <>
-      <Header />
+      <SPA />
     </>
   )
 }

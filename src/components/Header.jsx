@@ -1,8 +1,9 @@
 import React from 'react'
+import Button from '../shared/Button'
 
 export default function Header() {
     return (
-        <header className="text-gray-400 bg-gray-800 body-font">
+        <header className="text-gray-400 body-font px-10">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <a className="flex title-font items-center text-white mb-4 md:mb-0">
                     <img src="/public/starXCode.png" className='h-[60px] w-[60px]' alt="Star X Code Logo" />
@@ -17,10 +18,7 @@ export default function Header() {
                     <a className="mr-5 hover:text-white">UI Kits</a>
                 </nav>
 
-                <button className="inline-flex items-center justify-center bg-[#6AC6AD] border-0 py-1 px-3 focus:outline-none hover:bg-[#3fa589] transition-all text-white rounded-xl text-base mt-4 md:mt-0 h-[53px] w-[176px] text-center relative overflow-hidden font-semibold">
-                    Contact Us
-                    <div className='h-[45px] w-[41px] rounded-full bg-[#FFDC60] absolute left-[-20px] z-0'></div>
-                </button>
+                <Button text='Contact Us' />
             </div>
         </header>
     )

@@ -33,19 +33,19 @@ const HeroSection = () => {
                 <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto' />
             </div>
 
-            <div className="absolute top-0 left-20 transform">
+            <div className="absolute top-0 left-20">
                 <img src="../../public/figma.png" alt="Figma Icon" className="w-[80px] h-[80px]" />
             </div>
-            <div className="absolute top-14 right-0 transform">
+            <div className="absolute top-14 right-0">
                 <img src="../../public/react.png" alt="Figma Icon" className="w-[60px] h-[60px]" />
             </div>
-            <div className="absolute top-34 left-14 transform">
+            <div className="absolute top-34 left-14">
                 <img src="../../public/flutter.png" alt="Figma Icon" className="w-[60px] h-[60px]" />
             </div>
-            <div className="absolute top-[25rem] right-14 transform">
+            <div className="absolute top-[25rem] right-14">
                 <img src="../../public/laptop.png" alt="Figma Icon" className="w-[50px] h-[50px]" />
             </div>
-            <div className="absolute bottom-28 left-56 transform">
+            <div className="absolute bottom-28 left-56">
                 <img src="../../public/wp.png" alt="Figma Icon" className="w-[60px] h-[60px]" />
             </div>
         </section>

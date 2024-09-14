@@ -1,3 +1,4 @@
+import Expertize from '../components/Expertize';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection'
 
@@ -6,6 +7,7 @@ export const SPA = () => {
         <>
             <Header />
             <HeroSection />
+            <Expertize />
         </>
     )
 }

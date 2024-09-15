@@ -18,7 +18,7 @@ export default function Header() {
                     <a className="mr-5 hover:text-white">UI Kits</a>
                 </nav>
 
-                <Button text='Contact Us' />
+                <Button text='Contact Us' style={{ width: "176px" }} />
             </div>
         </header>
     )

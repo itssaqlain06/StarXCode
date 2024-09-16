@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '../shared/Button';
-import '../App.css'
 
 export default function Expertise() {
     const expertiseItems = [
@@ -63,7 +62,7 @@ export default function Expertise() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 text-white mb-10">
                     {expertiseItems.map((item, index) => (
-                        <div key={index} className="border border-[#3f44c8] p-6 rounded-lg flex flex-col justify-between">
+                        <div key={index} className="border border-[#3f44c8] p-6 rounded-3xl flex flex-col justify-between">
 
                             <h3 className="text-[24px] text-white mb-4">{item.title}</h3>
 

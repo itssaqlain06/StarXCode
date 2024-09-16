@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    background-color: #08071A;
+body, html {
+  background-color: #08071a;
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-moveRight {
+  animation: moveRight 15s linear infinite;
+}
+
+.animate-moveLeft {
+  animation: moveLeft 15s linear infinite;
 }

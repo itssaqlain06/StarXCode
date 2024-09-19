@@ -29,7 +29,7 @@ export default function OurTeam() {
 
     return (
         <>
-            <section className="container mx-auto my-12">
+            <section className="container mx-auto my-20">
                 <h2 className="text-center text-[48px] font-normal mb-12 text-white">OUR TEAM</h2>
 
                 <div className="relative flex items-center gap-10 justify-between">
@@ -42,7 +42,7 @@ export default function OurTeam() {
                         >
                             {teamMembers.map((member, index) => (
                                 <div key={index} className="flex-shrink-0 p-4" style={{ width: '345px', height: '345px' }}>
-                                    <div className="bg-[#1e1f2b] border-2 border-[#04A0F8] p-6 rounded-lg text-center" style={{ width: '100%', height: '100%' }}>
+                                    <div className="bg-main border-2 border-[#04A0F8] p-6 rounded-lg text-center" style={{ width: '100%', height: '100%' }}>
                                         <div className="rounded-full bg-gray-500 w-24 h-24 mx-auto mb-4">
                                             <img src={member.img} alt={member.name} className="w-full h-full object-cover rounded-full" />
                                         </div>

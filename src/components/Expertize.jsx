@@ -55,7 +55,7 @@ export default function Expertise() {
 
     return (
         <>
-            <section className="container mx-auto px-4 lg:px-20 flex flex-col justify-center items-center relative mt-8">
+            <section className="container mx-auto flex flex-col justify-center items-center relative mt-10">
                 <div className="text-center text-white my-12 font-normal text-[48px] px-60">
                     From Idea to Completion, we bring Full-Stack Expertise
                 </div>
@@ -78,7 +78,7 @@ export default function Expertise() {
 
                 <Button text="Explore UI UX Design Kits" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)", width: "280px" }} />
 
-                <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-10' />
+                <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-20' />
 
             </section>
         </>

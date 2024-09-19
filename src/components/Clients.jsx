@@ -3,8 +3,8 @@ import Button from '../shared/Button'
 
 export default function Clients() {
     return (
-        <div className="mt-20">
-            <h2 className="text-center text-[48px] font-normal mb-12 text-white">
+        <section className="container mx-auto mt-20">
+            <h2 className="text-center text-[48px] font-normal mb-10 text-white">
                 Our Clients
             </h2>
 
@@ -35,7 +35,6 @@ export default function Clients() {
             </div>
 
             <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-20' />
-
-        </div>
+        </section>
     );
 }

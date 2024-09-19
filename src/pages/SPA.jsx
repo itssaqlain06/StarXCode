@@ -9,6 +9,9 @@ import Awards from '../components/Awards';
 import RoadMap from '../components/RoadMap';
 import UiKits from '../components/UiKits';
 import Testimonials from '../components/Testimonials';
+import Pricing from '../components/Pricing';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 export const SPA = () => {
     return (
@@ -24,6 +27,9 @@ export const SPA = () => {
             <RoadMap />
             <UiKits />
             <Testimonials />
+            <Pricing />
+            <Contact />
+            <Footer />
         </>
     )
 }

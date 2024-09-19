@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body, html {
+body,
+html {
   background-color: #08071a;
+  font-family: "Sora", sans-serif;
 }
 
 @keyframes moveRight {

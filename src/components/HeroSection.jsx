@@ -30,7 +30,7 @@ const HeroSection = () => {
                     <Button text="Let's Talk" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)", width: "176px" }} />
 
                 </div>
-                <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto' />
+                <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-20' />
             </div>
 
             <div className="absolute top-0 left-20">

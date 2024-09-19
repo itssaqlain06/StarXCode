@@ -3,7 +3,7 @@ import React from 'react';
 export default function Technology() {
     return (
         <>
-            <section className="container px-36 flex flex-row items-center justify-between my-20">
+            <section className="container mx-auto flex flex-row items-center justify-between mt-20">
 
                 <div className="text-white z-20 w-1/2">
                     <h2 className="text-[48px] font-normal leading-[60px] mb-4">
@@ -26,7 +26,7 @@ export default function Technology() {
                     />
                 </div>
             </section>
-            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-10' />
+            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-20' />
         </>
     );
 }

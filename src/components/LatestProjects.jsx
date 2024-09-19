@@ -4,7 +4,7 @@ export default function LatestProjects() {
     return (
         <>
             <section className="my-20">
-                <h2 className="text-center text-[48px] leading-[60px] font-normal mb-12 text-white">
+                <h2 className="text-center text-[48px] leading-[60px] font-normal mb-14 text-white">
                     Explore some of our latest projects
                 </h2>
                 <div className="relative overflow-hidden mb-10">

@@ -1,25 +1,117 @@
-import React from 'react'
-import Button from '../shared/Button'
+import React, { useState, useEffect } from 'react';
+import { RxHamburgerMenu } from "react-icons/rx";
+import Button from '../shared/Button';
 
 export default function Header() {
-    return (
-        <header className="text-gray-400 body-font px-10">
-            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <a className="flex title-font items-center text-white mb-4 md:mb-0">
-                    <img src="/public/starXCode.png" className='h-[60px] w-[60px]' alt="Star X Code Logo" />
-                    <span className="ml-3 text-5xl">StarXCodes</span>
-                </a>
-                <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-white font-semibold text-[16px]">
-                    <a className="mr-5 hover:text-white">Home</a>
-                    <a className="mr-5 hover:text-white">Services</a>
-                    <a className="mr-5 hover:text-white">Portfolio</a>
-                    <a className="mr-5 hover:text-white">Team</a>
-                    <a className="mr-5 hover:text-white">Roadmap</a>
-                    <a className="mr-5 hover:text-white">UI Kits</a>
-                </nav>
+    const [isMobile, setIsMobile] = useState(false);
 
-                <Button text='Contact Us' style={{ width: "176px" }} />
-            </div>
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth > 1024) {
+                setIsMobile(false);
+            }
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const toggleMenu = () => {
+        if (window.innerWidth <= 1024) {
+            setIsMobile((prev) => !prev);
+        }
+    };
+
+    const closeMenu = () => {
+        setIsMobile(false);
+    };
+
+    return (
+        <header className="lg:px-8 bg-main">
+            {!isMobile && (
+                <div className="text-gray-400 body-font flex flex-wrap items-center justify-between p-5">
+                    <div className="flex items-center w-full lg:w-auto justify-between">
+                        <a className="flex title-font items-center text-white">
+                            <img
+                                src="starXCode.png"
+                                className='h-[32px] w-[32px] lg:h-[45px] lg:w-[45px] xl:h-[60px] xl:w-[60px]'
+                                alt="Star X Code Logo"
+                            />
+                            <span className="ml-3 text-2xl lg:text-3xl xl:text-5xl">StarXCodes</span>
+                        </a>
+
+                        <div className="lg:hidden">
+                            <RxHamburgerMenu className="text-3xl text-white" onClick={toggleMenu} />
+                        </div>
+                    </div>
+
+                    <nav className="hidden lg:flex flex-wrap items-center text-base justify-center text-white font-semibold text-[16px] lg:ml-auto">
+                        <a className="mr-5 hover:text-white">Home</a>
+                        <a className="mr-5 hover:text-white">Services</a>
+                        <a className="mr-5 hover:text-white">Portfolio</a>
+                        <a className="mr-5 hover:text-white">Team</a>
+                        <a className="mr-5 hover:text-white">Roadmap</a>
+                        <a className="mr-5 hover:text-white">UI Kits</a>
+                        <Button text='Contact Us' style={{ width: "176px" }} />
+                    </nav>
+                </div>
+            )}
+
+            {window.innerWidth <= 1024 && (
+                <div
+                    className={`navbar-menu fixed inset-0 z-50 border-r overflow-y-auto transform transition-transform duration-300 ease-in-out ${isMobile ? 'translate-x-0' : '-translate-x-full'
+                        }`}
+                >
+                    <nav className="relative flex flex-col p-6 bg-[#08071a] h-screen">
+                        <div className="flex items-center mb-8">
+                            <a className="mr-auto" href="#">
+                                <span className="flex items-center text-white">
+                                    <img
+                                        src="starXCode.png"
+                                        className='h-[32px] w-[32px]'
+                                        alt="Star X Code Logo"
+                                    />
+                                    <span className="ml-3 text-2xl">StarXCodes</span>
+                                </span>
+                            </a>
+
+                            <button className="navbar-close" onClick={closeMenu}>
+                                <svg className="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <ul>
+                            <li className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-[#68C7AD] hover:text-[#FFDC60] rounded" href="#">Home</a>
+                            </li>
+                            <li className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-[#68C7AD] hover:text-[#FFDC60] rounded" href="#">Services</a>
+                            </li>
+                            <li className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-[#68C7AD] hover:text-[#FFDC60] rounded" href="#">Portfolio</a>
+                            </li>
+                            <li className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-[#68C7AD] hover:text-[#FFDC60] rounded" href="#">Team</a>
+                            </li>
+                            <li className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-[#68C7AD] hover:text-[#FFDC60] rounded" href="#">Roadmap</a>
+                            </li>
+                            <li className="mb-1">
+                                <a className="block p-4 text-sm font-semibold text-gray-400 hover:bg-[#68C7AD] hover:text-[#FFDC60] rounded" href="#">UI Kits</a>
+                            </li>
+                        </ul>
+
+                        <div className="mt-auto">
+                            <div className="pt-6">
+                                <Button text='Contact Us' style={{ width: "100%" }} />
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            )}
         </header>
-    )
+    );
 }

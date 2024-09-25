@@ -1,8 +1,8 @@
 {
-  "name": "Star X Code",
+  "name": "StarXCode",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://itssaqlain06.github.io/StarXCode"
+  "homepage": "https://itssaqlain06.github.io/StarXCode",
   "type": "module",
   "author": {
     "name": "Saqlain",

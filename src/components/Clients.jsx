@@ -9,18 +9,18 @@ export default function Clients() {
             </h2>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 mb-16 justify-items-center gap-10">
-                <img src="../../public/terrascope.png" alt="Company 1" />
-                <img src="../../public/anytime.png" alt="Company 2" />
-                <img src="../../public/x-dot.png" alt="Company 3" />
-                <img src="../../public/brando.png" alt="Company 4" />
-                <img src="../../public/myhomeb.png" alt="Company 5" />
-                <img src="../../public/huawei.png" alt="Company 6" />
-                <img src="../../public/maple.png" alt="Company 7" />
+                <img src="terrascope.png" alt="Company 1" />
+                <img src="anytime.png" alt="Company 2" />
+                <img src="x-dot.png" alt="Company 3" />
+                <img src="brando.png" alt="Company 4" />
+                <img src="myhomeb.png" alt="Company 5" />
+                <img src="huawei.png" alt="Company 6" />
+                <img src="maple.png" alt="Company 7" />
             </div>
 
             <div className="grid grid-cols-3 items-center">
                 <div className="flex justify-center lg:justify-end">
-                    <img src="../../public/left-feather.png" className='w-[191px] h-[360px]' alt="Left Image" />
+                    <img src="left-feather.png" className='w-[191px] h-[360px]' alt="Left Image" />
                 </div>
 
                 <div className="text-center">
@@ -30,11 +30,11 @@ export default function Clients() {
                     <Button text="Let's Talk" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)", width: "176px" }} />
                 </div>
                 <div className="flex justify-center lg:justify-start">
-                    <img src="../../public/right-feather.png" className='w-[191px] h-[360px]' alt="Right Image" />
+                    <img src="right-feather.png" className='w-[191px] h-[360px]' alt="Right Image" />
                 </div>
             </div>
 
-            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-20' />
+            <img src="hr-line.png" alt="Rainbow" className='m-auto mt-20' />
         </section>
     );
 }

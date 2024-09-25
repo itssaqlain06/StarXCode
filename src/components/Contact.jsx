@@ -34,18 +34,18 @@ export default function Contact() {
 
                     <div className="flex flex-col justify-center items-start text-left">
                         <div className="flex flex-col items-start gap-4">
-                            <img src='../../public/starXCode.png' className='w-18 h-16' alt='StarXCode Logo' />
+                            <img src='starXCode.png' className='w-18 h-16' alt='StarXCode Logo' />
                             <p className="text-white text-4xl font-semibold">If you have any questions</p>
                             <p className="text-white text-4xl font-semibold">please do not hesitate to ask: </p>
                         </div>
                         <div className="flex gap-4 mt-4">
-                            <img src='../../public/fb.png' className='w-8 h-8 cursor-pointer transition-all hover:opacity-70' alt='Facebook Logo' />
-                            <img src='../../public/insta.png' className='w-8 h-8 cursor-pointer transition-all hover:opacity-70' alt='Instagram Logo' />
+                            <img src='fb.png' className='w-8 h-8 cursor-pointer transition-all hover:opacity-70' alt='Facebook Logo' />
+                            <img src='insta.png' className='w-8 h-8 cursor-pointer transition-all hover:opacity-70' alt='Instagram Logo' />
                         </div>
                     </div>
                 </div>
             </section>
-            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto' />
+            <img src="hr-line.png" alt="Rainbow" className='m-auto' />
         </>
     )
 }

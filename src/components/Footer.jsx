@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="flex flex-wrap md:justify-between justify-center">
                         <div className="w-full md:w-60 text-left text-white mb-10 md:mb-0">
                             <a className="flex font-medium items-center">
-                                <img src="../../public/starXCode.png" alt="StarXCodes Logo" className='h-[60px] w-[60px]' />
+                                <img src="starXCode.png" alt="StarXCodes Logo" className='h-[60px] w-[60px]' />
                                 <span className="ml-3 text-3xl">StarXCodes</span>
                             </a>
                             <p className="my-4 text-sm font-extralight leading-[150%]">
@@ -109,7 +109,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto' />
+                <img src="hr-line.png" alt="Rainbow" className='m-auto' />
                 <div className="text-center text-[#BFBFBF] text-sm font-semibold leading-[150%] py-10">
                     Copyright © {new Date().getFullYear()} All Rights Reserved. Starxcodes
                 </div>

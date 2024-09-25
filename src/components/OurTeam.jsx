@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
 const teamMembers = [
-    { name: 'Yevhen Oleksiy', role: 'Blockchain Architect', img: '../../public/team_01.png' },
-    { name: 'Yevhen Oleksiy', role: 'Marketing Manager', img: '../../public/team_02.png' },
-    { name: 'Yevhen Oleksiy', role: 'Blockchain Engineer', img: '../../public/team_03.png' },
-    { name: 'Shahzaib Munir', role: 'Founder & CEO', img: '../../public/team_04.png' },
-    { name: 'Another Member', role: 'Product Manager', img: '../../public/team_01.png' },
-    { name: 'More Member', role: 'UI/UX Designer', img: '../../public/team_02.png' },
-    { name: 'New Member', role: 'Developer', img: '../../public/team_03.png' },
-    { name: 'New Member', role: 'Developer', img: '../../public/team_04.png' }
+    { name: 'Yevhen Oleksiy', role: 'Blockchain Architect', img: 'team_01.png' },
+    { name: 'Yevhen Oleksiy', role: 'Marketing Manager', img: 'team_02.png' },
+    { name: 'Yevhen Oleksiy', role: 'Blockchain Engineer', img: 'team_03.png' },
+    { name: 'Shahzaib Munir', role: 'Founder & CEO', img: 'team_04.png' },
+    { name: 'Another Member', role: 'Product Manager', img: 'team_01.png' },
+    { name: 'More Member', role: 'UI/UX Designer', img: 'team_02.png' },
+    { name: 'New Member', role: 'Developer', img: 'team_03.png' },
+    { name: 'New Member', role: 'Developer', img: 'team_04.png' }
 ];
 
 export default function OurTeam() {
@@ -33,7 +33,7 @@ export default function OurTeam() {
                 <h2 className="text-center text-[48px] font-normal mb-12 text-white">OUR TEAM</h2>
 
                 <div className="relative flex items-center gap-10 justify-between">
-                    <img src="../../public/arrow-left.png" alt="Left Arrow" className='cursor-pointer' onClick={prevSlide} />
+                    <img src="arrow-left.png" alt="Left Arrow" className='cursor-pointer' onClick={prevSlide} />
 
                     <div className="w-full overflow-hidden">
                         <div
@@ -54,10 +54,10 @@ export default function OurTeam() {
                         </div>
                     </div>
 
-                    <img src="../../public/arrow-right.png" alt="Right Arrow" className='cursor-pointer' onClick={nextSlide} />
+                    <img src="arrow-right.png" alt="Right Arrow" className='cursor-pointer' onClick={nextSlide} />
                 </div>
             </section>
-            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto' />
+            <img src="hr-line.png" alt="Rainbow" className='m-auto' />
         </>
     );
 }

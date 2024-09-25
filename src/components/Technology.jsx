@@ -20,13 +20,13 @@ export default function Technology() {
 
                 <div className="relative w-full">
                     <img
-                        src="../../public/tech-logo.png"
+                        src="tech-logo.png"
                         alt="Technologies Logo"
                         className='absolute top-[-130px]'
                     />
                 </div>
             </section>
-            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-20' />
+            <img src="hr-line.png" alt="Rainbow" className='m-auto mt-20' />
         </>
     );
 }

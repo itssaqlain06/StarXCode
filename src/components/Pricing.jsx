@@ -150,7 +150,7 @@ export default function Pricing() {
                     </div>
                 </div>
             </div>
-            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto' />
+            <img src="hr-line.png" alt="Rainbow" className='m-auto' />
 
         </>
     )

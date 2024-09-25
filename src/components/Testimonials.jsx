@@ -125,7 +125,7 @@ export default function Testimonials() {
                 </Swiper>
             </div>
 
-            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto mt-10' />
+            <img src="hr-line.png" alt="Rainbow" className='m-auto mt-10' />
         </>
     );
 }

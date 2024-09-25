@@ -5,7 +5,7 @@ const Awards = () => {
         <>
             <section className="relative container mx-auto mt-32 mb-20">
                 <img
-                    src="../../public/layers.png"
+                    src="layers.png"
                     alt="Gradient Overlay"
                     className="absolute -left-0 -top-56 inset-0 rounded-3xl opacity-50 z-10"
                 />
@@ -18,18 +18,18 @@ const Awards = () => {
                         </p>
                     </div>
                     <div className="p-6">
-                        <img src="../../public/top.png" alt="Award 1" />
+                        <img src="top.png" alt="Award 1" />
                     </div>
                     <div className="p-6">
-                        <img src="../../public/software.png" alt="Award 2" />
+                        <img src="software.png" alt="Award 2" />
                     </div>
                     <div className="p-6">
-                        <img src="../../public/clutch.png" alt="Award 3" />
+                        <img src="clutch.png" alt="Award 3" />
                     </div>
                 </div>
             </section>
 
-            <img src="../../public/hr-line.png" alt="Rainbow" className='m-auto' />
+            <img src="hr-line.png" alt="Rainbow" className='m-auto' />
         </>
     );
 };

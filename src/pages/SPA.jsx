@@ -18,7 +18,7 @@ export const SPA = () => {
         <>
             <Header />
             <HeroSection />
-            <Expertize />
+            {/* <Expertize />
             <Technology />
             <Clients />
             <LatestProjects />
@@ -29,7 +29,7 @@ export const SPA = () => {
             <Testimonials />
             <Pricing />
             <Contact />
-            <Footer />
+            <Footer /> */}
         </>
     )
 }

@@ -29,34 +29,32 @@ export default function Header() {
 
     return (
         <header className="lg:px-8 bg-main">
-            {!isMobile && (
-                <div className="text-gray-400 body-font flex flex-wrap items-center justify-between p-5">
-                    <div className="flex items-center w-full lg:w-auto justify-between">
-                        <a className="flex title-font items-center text-white">
-                            <img
-                                src="starXCode.png"
-                                className='h-[32px] w-[32px] lg:h-[45px] lg:w-[45px] xl:h-[60px] xl:w-[60px]'
-                                alt="Star X Code Logo"
-                            />
-                            <span className="ml-3 text-2xl lg:text-3xl xl:text-5xl">StarXCodes</span>
-                        </a>
+            <div className="text-gray-400 body-font flex flex-wrap items-center justify-between p-5">
+                <div className="flex items-center w-full lg:w-auto justify-between">
+                    <a className="flex title-font items-center text-white">
+                        <img
+                            src="starXCode.png"
+                            className='h-[32px] w-[32px] lg:h-[45px] lg:w-[45px] xl:h-[60px] xl:w-[60px]'
+                            alt="Star X Code Logo"
+                        />
+                        <span className="ml-3 text-2xl lg:text-3xl xl:text-5xl">StarXCodes</span>
+                    </a>
 
-                        <div className="lg:hidden">
-                            <RxHamburgerMenu className="text-3xl text-white" onClick={toggleMenu} />
-                        </div>
+                    <div className="lg:hidden">
+                        <RxHamburgerMenu className="text-3xl text-white" onClick={toggleMenu} />
                     </div>
-
-                    <nav className="hidden lg:flex flex-wrap items-center text-base justify-center text-white font-semibold text-[16px] lg:ml-auto">
-                        <a className="mr-5 hover:text-white">Home</a>
-                        <a className="mr-5 hover:text-white">Services</a>
-                        <a className="mr-5 hover:text-white">Portfolio</a>
-                        <a className="mr-5 hover:text-white">Team</a>
-                        <a className="mr-5 hover:text-white">Roadmap</a>
-                        <a className="mr-5 hover:text-white">UI Kits</a>
-                        <Button text='Contact Us' style={{ width: "176px" }} />
-                    </nav>
                 </div>
-            )}
+
+                <nav className="hidden lg:flex flex-wrap items-center text-base justify-center text-white font-semibold text-[16px] lg:ml-auto">
+                    <a className="mr-5 hover:text-white">Home</a>
+                    <a className="mr-5 hover:text-white">Services</a>
+                    <a className="mr-5 hover:text-white">Portfolio</a>
+                    <a className="mr-5 hover:text-white">Team</a>
+                    <a className="mr-5 hover:text-white">Roadmap</a>
+                    <a className="mr-5 hover:text-white">UI Kits</a>
+                    <Button text='Contact Us' style={{ width: "176px" }} />
+                </nav>
+            </div>
 
             {window.innerWidth <= 1024 && (
                 <div

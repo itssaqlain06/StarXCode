@@ -102,10 +102,9 @@ export default function Clients() {
 
                 <div className="text-center">
                     <p className="text-white text-[16px] leading-[33px] sm:text-[20px] sm:leading-[35px] md:text-[24px] md:leading-[40px] lg:text-[32px] lg:leading-[50px] xl:text-[40px] xl:leading-[60px] 2xl:text-[48px] 2xl:leading-[72px] font-semibold mb-8">
-                        Start for <span className="text-[#6AC6AD]">free consultation</span> with our experts and get the direction for your project
+                        Start for <span className="text-[#6AC6AD]"> free consultation</span> with our experts and get the direction for your project
                     </p>
-
-                    <Button text="Let's Talk" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)", width: "122px" }} />
+                    <Button className="py-2 px-5 sm:py-3 sm:px-10 md:py-4 md:px-12" text="Let's Talk" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)" }} />
                 </div>
                 <div className="flex justify-center lg:justify-start">
                     <img src="right-feather.png" className='w-[108px] h-[204px] sm:w-[130px] sm:h-[245px] md:w-[150px] md:h-[280px] lg:w-[170px] lg:h-[320px] xl:w-[180px] xl:h-[340px] 2xl:w-[191px] 2xl:h-[360px]' alt="Right Image" />

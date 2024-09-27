@@ -2,17 +2,18 @@ import React from 'react'
 import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";
+import Border from '../shared/Border';
 
 export default function Footer() {
     return (
         <>
             <footer className="bg-main mt-20">
-                <div className="container py-12 mx-auto">
+                <div className="container px-8 sm:px-4 py-14 mx-auto">
                     <div className="flex flex-wrap md:justify-between justify-center">
                         <div className="w-full md:w-60 text-left text-white mb-10 md:mb-0">
                             <a className="flex font-medium items-center">
                                 <img src="starXCode.png" alt="StarXCodes Logo" className='h-[60px] w-[60px]' />
-                                <span className="ml-3 text-3xl">StarXCodes</span>
+                                <span className="ml-3 font-normal text-3xl xl:text-4xl ">StarXCodes</span>
                             </a>
                             <p className="my-4 text-sm font-extralight leading-[150%]">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -109,9 +110,10 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <img src="hr-line.png" alt="Rainbow" className='m-auto' />
+                <Border />
                 <div className="text-center text-[#BFBFBF] text-sm font-semibold leading-[150%] py-10">
-                    Copyright © {new Date().getFullYear()} All Rights Reserved. Starxcodes
+                    {/* Copyright © {new Date().getFullYear()} All Rights Reserved. StarXCodes */}
+                    Made with 💖<span className='text-[#69C8AE]'>,</span> By <a href="https://www.linkedin.com/in/itssaqlain06/" className='hover:text-[#69C8AE]'>Saqlain</a><span className='text-[#69C8AE]'>.</span>
                 </div>
             </footer>
         </>

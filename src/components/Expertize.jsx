@@ -66,7 +66,7 @@ export default function Expertise() {
                         {expertiseItems.map((item, index) => (
                             <div
                                 key={index}
-                                className="w-[384px] h-[366px] border border-[#3f44c8] p-6 rounded-3xl flex flex-col justify-between"
+                                className="sm:w-[384px] sm:h-[366px] border border-[#3f44c8] p-6 rounded-3xl flex flex-col justify-between"
                             >
                                 <h3 className="text-[24px] text-white mb-4">{item.title}</h3>
 
@@ -80,10 +80,7 @@ export default function Expertise() {
                         ))}
                     </div>
 
-                    <Button
-                        text="Explore UI UX Design Kits"
-                        style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)", width: "290px" }}
-                    />
+                    <Button className="py-2 px-5 sm:py-3 sm:px-10 md:py-4 md:px-12" text="Explore UI UX Design Kits" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)" }} />
 
                     <Border />
                 </div>

@@ -52,7 +52,8 @@ export default function Header() {
                     <a className="mr-5 hover:text-white">Team</a>
                     <a className="mr-5 hover:text-white">Roadmap</a>
                     <a className="mr-5 hover:text-white">UI Kits</a>
-                    <Button text='Contact Us' style={{ width: "176px" }} />
+                    <Button className="py-2 px-5 sm:py-3 sm:px-10 md:py-4 md:px-12" text="Contact Us" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)" }} />
+
                 </nav>
             </div>
 
@@ -104,7 +105,7 @@ export default function Header() {
 
                         <div className="mt-auto">
                             <div className="pt-6">
-                                <Button text='Contact Us' style={{ width: "100%" }} />
+                                <Button className="my-0 py-2 px-5 sm:py-3 sm:px-10 md:py-4 md:px-12" text="Contact Us" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)" }} />
                             </div>
                         </div>
                     </nav>

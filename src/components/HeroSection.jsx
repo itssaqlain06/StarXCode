@@ -31,7 +31,7 @@ const HeroSection = () => {
                             StarXcodes is a professional web, mobile app development, UI UX design kits, and WordPress Plugins and Themes business that prioritizes client happiness and smart technologies. Since its founding in 2019, our organization has a 100% success rate when providing top-notch solutions to enterprises throughout the world. Hire our knowledge at a reasonable cost to get the best IT solutions for your business.
                         </p>
 
-                        <Button text="Let's Talk" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)", width: "176px" }} />
+                        <Button className="py-2 px-5 sm:py-3 sm:px-10 md:py-4 md:px-12 mt-4" text="Let's Talk" style={{ boxShadow: "0px 0px 50px 0px rgba(255,255,255,0.3)" }} />
                     </div>
                 </div>
 

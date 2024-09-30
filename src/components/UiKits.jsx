@@ -20,9 +20,9 @@ export default function UiKits() {
                         768: { slidesPerView: 2, spaceBetween: 30 },
                         1024: { slidesPerView: 3, spaceBetween: 40 },
                         1280: { slidesPerView: 4, spaceBetween: 50 },
-                        1536: { slidesPerView: 5, spaceBetween: 60 }
+                        1536: { slidesPerView: 4, spaceBetween: 60 }
                     }}
-                    className="mb-10 px-2 sm:px-0"
+                    className="mb-10 px-4 sm:px-0"
                 >
                     <SwiperSlide><img src="mockup-1.png" alt="Project 1" className="w-full h-auto" /></SwiperSlide>
                     <SwiperSlide><img src="mockup-2.png" alt="Project 2" className="w-full h-auto" /></SwiperSlide>
@@ -38,9 +38,9 @@ export default function UiKits() {
                         768: { slidesPerView: 2, spaceBetween: 30 },
                         1024: { slidesPerView: 3, spaceBetween: 40 },
                         1280: { slidesPerView: 3, spaceBetween: 50 },
-                        1536: { slidesPerView: 4, spaceBetween: 60 }
+                        1536: { slidesPerView: 3, spaceBetween: 60 }
                     }}
-                    className="mb-10 px-2 sm:px-0"
+                    className="mb-10 px-4 sm:px-0"
                 >
                     <SwiperSlide><img src="mockup-5.png" alt="Project 5" className="w-full h-auto" /></SwiperSlide>
                     <SwiperSlide><img src="mockup-6.png" alt="Project 6" className="w-full h-auto" /></SwiperSlide>
@@ -55,9 +55,9 @@ export default function UiKits() {
                         768: { slidesPerView: 2, spaceBetween: 30 },
                         1024: { slidesPerView: 3, spaceBetween: 40 },
                         1280: { slidesPerView: 4, spaceBetween: 50 },
-                        1536: { slidesPerView: 5, spaceBetween: 60 }
+                        1536: { slidesPerView: 4, spaceBetween: 60 }
                     }}
-                    className="px-2 sm:px-0"
+                    className="px-4 sm:px-0"
                 >
                     <SwiperSlide><img src="mockup-8.png" alt="Project 8" className="w-full h-auto" /></SwiperSlide>
                     <SwiperSlide><img src="mockup-9.png" alt="Project 9" className="w-full h-auto" /></SwiperSlide>

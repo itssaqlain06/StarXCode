@@ -7,3 +7,8 @@ html {
   background-color: #08071a;
   font-family: "Sora", sans-serif;
 }
+
+::selection {
+  background-color: #68C7AD;
+  color: white;
+}

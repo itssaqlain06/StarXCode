@@ -130,8 +130,8 @@ export default function Testimonials() {
                                             className="size-14 rounded-lg object-cover"
                                         />
                                         <div className="flex flex-col">
-                                            <p className="text-lg font-bold leading-7">Person {index + 1}</p>
-                                            <p className="text-xs font-normal leading-10 text-[#8A90A2]">CEO At Company</p>
+                                            <p className="text-[15px] leading-[15px] sm:text-[16px] sm:leading-[18px] md:text-[17px] md:leading-[20px] lg:text-[17px] lg:leading-[22px] xl:text-[18px] xl:leading-[24px] 2xl:text-[18px] 2xl:leading-[26px] font-bold">Person {index + 1}</p>
+                                            <p className="text-[7.26px] leading-[26px] sm:text-[8px] sm:leading-[26px] md:text-[9px] md:leading-[26px] lg:text-[10px] lg:leading-[26px] xl:text-[11px] xl:leading-[26px] 2xl:text-[12px] 2xl:leading-[26px] font-normal text-[#8A90A2]">CEO At Company</p>
                                         </div>
                                         <div className="ml-auto flex justify-end gap-0.5 text-[#6AC6AD]">
                                             {Array(5).fill(0).map((_, i) => (
@@ -147,7 +147,7 @@ export default function Testimonials() {
                                             ))}
                                         </div>
                                     </div>
-                                    <p className="mt-4">
+                                    <p className="text-[10.9px] leading-[18.2px] sm:text-[12px] sm:leading-[20px] md:text-[14px] md:leading-[24px] lg:text-[16px] lg:leading-[28px] xl:text-[17px] xl:leading-[29px] 2xl:text-[18px] 2xl:leading-[30px] font-normal mt-4">
                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!
                                     </p>
                                 </div>

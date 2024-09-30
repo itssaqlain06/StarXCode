@@ -17,18 +17,18 @@ export const SPA = () => {
     return (
         <>
             <Header />
-            <HeroSection />
-            <Expertize />
-            <Technology />
-            <Clients />
-            <LatestProjects />
-            <OurTeam />
-            <Awards />
-            <RoadMap />
-            <UiKits />
-            <Testimonials />
-            <Pricing />
-            <Contact />
+            <section id="header"><HeroSection /></section>
+            <section id="expertize"><Expertize /></section>
+            <section id="technology"><Technology /></section>
+            <section id="clients"><Clients /></section>
+            <section id="projects"><LatestProjects /></section>
+            <section id="team"><OurTeam /></section>
+            <section id="awards"><Awards /></section>
+            <section id="roadmap"><RoadMap /></section>
+            <section id="ui-kits"><UiKits /></section>
+            <section id="testimonials"><Testimonials /></section>
+            <section id="pricing"><Pricing /></section>
+            <section id="contact"><Contact /></section>
             <Footer />
         </>
     )

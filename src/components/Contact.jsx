@@ -5,7 +5,7 @@ import Border from '../shared/Border'
 export default function Contact() {
     return (
         <>
-            <section className="container mx-auto mt-20">
+            <section className="container mx-auto mt-20 px-4 md:px-0">
                 <div className="grid md:grid-cols-2 gap-10">
                     <div className="card h-fit max-w-6xl p-5 md:p-12 bg-main rounded-3xl border-t-[3px] border-l-[1px] border-r-[1px] border-b-[0px] border-[#AE63C4]">
                         <h2 className="text-[20.22px] leading-[25px] sm:text-[24px] sm:leading-[30px] md:text-[30px] md:leading-[38px] lg:text-[36px] lg:leading-[45px] xl:text-[40px] xl:leading-[50px] 2xl:text-[44px] 2xl:leading-[55px] font-bold text-white mb-2">

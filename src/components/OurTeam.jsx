@@ -80,7 +80,7 @@ export default function OurTeam() {
                             className="flex-shrink-0 p-4 w-full sm:w-[345px] md:w-[48%]"
                             style={{ maxWidth: '345px', height: '345px' }}
                         >
-                            <div className="bg-main border-2 border-[#04A0F8] p-6 rounded-lg text-center" style={{ width: '100%', height: '100%' }}>
+                            <div className="bg-main border-[1px] border-[#04A0F8] p-6 rounded-lg text-center" style={{ width: '100%', height: '100%' }}>
                                 <div className="rounded-full bg-gray-500 w-24 h-24 mx-auto mb-4">
                                     <img src={member.img} alt={member.name} className="w-full h-full object-cover rounded-full" />
                                 </div>

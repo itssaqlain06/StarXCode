@@ -5,7 +5,7 @@ import Border from '../shared/Border';
 const HeroSection = () => {
     return (
         <section className="container mx-auto">
-            <div className='flex flex-col justify-center items-center relative py-16'>
+            <div className='flex flex-col justify-center items-center relative py-10'>
                 <div className="flex items-center justify-center mb-6 space-x-4 px-4">
                     <img src="left-rectangle.png" alt="Right Icon" className="w-[31.15px] h-[1.48px] md:w-[46px] md:h-[2.24px] lg:w-[63px] lg:h-[3px]" />
                     <img src="starXCode.png" alt="Left Icon" className="w-[11.37px] h-[11.37px] md:w-[17.74px] md:h-[17.74px] lg:w-[23px] lg:h-[23px]" />

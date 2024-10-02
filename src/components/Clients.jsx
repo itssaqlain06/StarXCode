@@ -6,7 +6,7 @@ import Border from '../shared/Border';
 
 export default function Clients() {
     return (
-        <section className="container mx-auto mt-20">
+        <section className="container mx-auto px-4 mt-20">
             <h2 className="text-center text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] xl:text-[42px] 2xl:text-[48px] font-normal text-white">
                 Our Clients
             </h2>
@@ -14,6 +14,7 @@ export default function Clients() {
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
+                grabCursor
                 className='px-4 mt-10 mb-20'
                 breakpoints={{
                     640: {
@@ -37,7 +38,6 @@ export default function Clients() {
                         spaceBetween: 70,
                     },
                 }}
-                grabCursor={true}
             >
                 <SwiperSlide>
                     <img
@@ -85,6 +85,34 @@ export default function Clients() {
                     <img
                         src="maple.png"
                         alt="Company 7"
+                        className="h-[98.67px] w-[98.67px] sm:h-[100px] sm:w-[100px] md:h-[110px] md:w-[110px] lg:h-[115px] lg:w-[115px] xl:h-[118px] xl:w-[118px] 2xl:h-[120px] 2xl:w-[120px]"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        src="terrascope.png"
+                        alt="Company 1"
+                        className="h-[98.67px] w-[98.67px] sm:h-[100px] sm:w-[100px] md:h-[110px] md:w-[110px] lg:h-[115px] lg:w-[115px] xl:h-[118px] xl:w-[118px] 2xl:h-[120px] 2xl:w-[120px]"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        src="anytime.png"
+                        alt="Company 2"
+                        className="h-[98.67px] w-[98.67px] sm:h-[100px] sm:w-[100px] md:h-[110px] md:w-[110px] lg:h-[115px] lg:w-[115px] xl:h-[118px] xl:w-[118px] 2xl:h-[120px] 2xl:w-[120px]"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        src="x-dot.png"
+                        alt="Company 3"
+                        className="h-[98.67px] w-[98.67px] sm:h-[100px] sm:w-[100px] md:h-[110px] md:w-[110px] lg:h-[115px] lg:w-[115px] xl:h-[118px] xl:w-[118px] 2xl:h-[120px] 2xl:w-[120px]"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img
+                        src="brando.png"
+                        alt="Company 4"
                         className="h-[98.67px] w-[98.67px] sm:h-[100px] sm:w-[100px] md:h-[110px] md:w-[110px] lg:h-[115px] lg:w-[115px] xl:h-[118px] xl:w-[118px] 2xl:h-[120px] 2xl:w-[120px]"
                     />
                 </SwiperSlide>

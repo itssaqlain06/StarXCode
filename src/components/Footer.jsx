@@ -119,7 +119,7 @@ export default function Footer() {
                                 </li>
                                 <li className="flex items-center gap-2">
                                     <IoLocationOutline />
-                                    <a className="hover:text-[#68C7AD] transition-all cursor-pointer text-[#BFBFBF] font-light text-sm">Okara, Punjab, Pakistan</a>
+                                    <a className="hover:text-[#68C7AD] transition-all cursor-pointer text-[#BFBFBF] font-light text-sm">ABC street no.2 XYZ</a>
                                 </li>
                             </nav>
                         </div>

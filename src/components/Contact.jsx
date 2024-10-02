@@ -5,7 +5,7 @@ import Border from '../shared/Border'
 export default function Contact() {
     return (
         <>
-            <section className="container mx-auto mt-20 px-4 md:px-0">
+            <section className="container mx-auto mt-20 px-6 md:px-4">
                 <div className="grid md:grid-cols-2 gap-10">
                     <div className="card h-fit max-w-6xl p-5 md:p-12 bg-main rounded-3xl border-t-[3px] border-l-[1px] border-r-[1px] border-b-[0px] border-[#AE63C4]">
                         <h2 className="text-[20.22px] leading-[25px] sm:text-[24px] sm:leading-[30px] md:text-[30px] md:leading-[38px] lg:text-[36px] lg:leading-[45px] xl:text-[40px] xl:leading-[50px] 2xl:text-[44px] 2xl:leading-[55px] font-bold text-white mb-2">
@@ -89,17 +89,23 @@ export default function Contact() {
                         </form>
                     </div>
 
-                    <div className="hidden md:flex flex-col justify-center items-start text-left">
-                        <div className="flex flex-col items-start gap-4">
-                            <img src='starXCode.png' className='w-18 h-16' alt='StarXCode Logo' />
-                            <p className="text-white text-4xl font-semibold">If you have any questions</p>
-                            <p className="text-white text-4xl font-semibold">please do not hesitate to ask: </p>
-                        </div>
-                        <div className="flex gap-4 mt-4">
-                            <img src='fb.png' className='w-8 h-8 cursor-pointer transition-all hover:opacity-70' alt='Facebook Logo' />
-                            <img src='insta.png' className='w-8 h-8 cursor-pointer transition-all hover:opacity-70' alt='Instagram Logo' />
+                    <div className="hidden md:block h-full">
+                        <div className="flex justify-end items-center h-full">
+                            <div className="text-left">
+                                <div className="flex flex-col items-start gap-4">
+                                    <img src='starXCode.png' className='w-18 h-16' alt='StarXCode Logo' />
+                                    <p className="text-white text-4xl font-semibold">If you have any questions</p>
+                                    <p className="text-white text-4xl font-semibold">please do not hesitate to ask: </p>
+                                </div>
+                                <div className="flex gap-4 mt-4">
+                                    <img src='fb.png' className='w-8 h-8 cursor-pointer transition-all hover:opacity-70' alt='Facebook Logo' />
+                                    <img src='insta.png' className='w-8 h-8 cursor-pointer transition-all hover:opacity-70' alt='Instagram Logo' />
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
             </section>
             <Border />

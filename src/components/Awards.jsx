@@ -4,7 +4,7 @@ import Border from '../shared/Border';
 const Awards = () => {
     return (
         <>
-            <section className="container mx-auto mt-10">
+            <section className="container mx-auto mt-10 px-2 sm:px-0">
                 <div className="relative z-0 bg-main border border-[#04A0F8] rounded-3xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-8 px-4 lg:p-20 justify-items-center items-center mx-4">
 
                     <div className="lg:col-span-1">

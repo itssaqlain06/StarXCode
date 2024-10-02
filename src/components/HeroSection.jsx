@@ -37,17 +37,16 @@ const HeroSection = () => {
 
                 <Border />
 
-                {/* Add animations to icons */}
                 <div>
                     <div className="absolute top-8 md:top-5 lg:top-2 left-0 2xl:left-0 lg:left-[-20px] animate-float">
                         <img src="figma.png" alt="Figma Icon" className="w-[33.95px] h-[33.95px] sm:w-[45px] sm:h-[45px] md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px] xl:w-[90px] xl:h-[90px] 2xl:w-[100px] 2xl:h-[100px]" />
                     </div>
 
-                    <div className="absolute sm:top-8 md:top-10 lg:top-10 top-6 right-0 animate-float">
+                    <div className="absolute sm:top-6 md:top-8 lg:top-10 top-6 right-0 animate-float">
                         <img src="react.png" alt="React Icon" className="w-[29.52px] h-[29.52px] sm:w-[40px] sm:h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px] xl:w-[70px] xl:h-[70px] 2xl:w-[80px] 2xl:h-[80px]" />
                     </div>
 
-                    <div className="absolute sm:left-0 md:top-80 md:left-[-25px] lg:left-0 top-64 left-0 animate-float-opposite">
+                    <div className="absolute sm:left-0 md:top-70 lg:top-80 md:left-[-15px] lg:left-0 top-64 left-0 animate-float-opposite">
                         <img src="flutter.png" alt="Flutter Icon" className="w-[21.89px] h-[21.89px] sm:w-[35px] sm:h-[35px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px] xl:w-[70px] xl:h-[70px] 2xl:w-[80px] 2xl:h-[80px]" />
                     </div>
 
@@ -55,7 +54,7 @@ const HeroSection = () => {
                         <img src="laptop.png" alt="Laptop Icon" className="w-[35.66px] h-[35.66px] sm:w-[40px] sm:h-[40px] md:w-[45px] md:h-[45px] lg:w-[50px] lg:h-[50px] xl:w-[55px] xl:h-[55px] 2xl:w-[60px] 2xl:h-[60px]" />
                     </div>
 
-                    <div className="absolute sm:left-10 sm:bottom-48 md:bottom-44 md:left-10 lg:bottom-40 lg:left-56 bottom-72 left-2 animate-float">
+                    <div className="absolute bottom-40 sm:left-10 sm:bottom-44 md:bottom-36 md:left-10 lg:left-56 left-2 animate-float">
                         <img src="wp.png" alt="WP Icon" className="w-[28.64px] h-[28.64px] sm:w-[40px] sm:h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px] xl:w-[70px] xl:h-[70px] 2xl:w-[80px] 2xl:h-[80px]" />
                     </div>
                 </div>

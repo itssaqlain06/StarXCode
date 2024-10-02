@@ -22,23 +22,10 @@ html {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
   100% {
     transform: translateY(0px);
-  }
-}
-
-.animate-rotate {
-  animation: rotate 10s linear infinite;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
 
@@ -51,25 +38,9 @@ html {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   100% {
     transform: translateY(0px);
-  }
-}
-
-.animate-swing {
-  animation: swing 4s ease-in-out infinite;
-}
-
-@keyframes swing {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(20deg);
-  }
-  100% {
-    transform: rotate(0deg);
   }
 }

@@ -7,7 +7,7 @@ export default function Expertise() {
 
     return (
         <>
-            <section className="container mx-auto">
+            <section className="px-4">
                 <div className='flex flex-col justify-center items-center relative'>
                     <div className="text-center text-white mb-10 font-normal text-[24px] leading-[30px] sm:text-[28px] sm:leading-[36px] md:text-[32px] md:leading-[42px] lg:text-[40px] lg:leading-[50px] xl:text-[44px] xl:leading-[55px] 2xl:text-[48px] 2xl:leading-[60px] px-4 lg:px-60">
                         From Idea to Completion, we bring Full-Stack Expertise

@@ -44,7 +44,7 @@ export default function Header() {
 
     return (
         <header className="sticky top-0 z-50 bg-[#08071a]">
-            <div className="bg-main lg:px-8">
+            <div className="bg-main lg:px-3">
                 <div className="text-gray-400 body-font flex flex-wrap items-center justify-between p-5">
                     <div className="flex items-center w-full lg:w-auto justify-between">
                         <a className="flex title-font items-center text-white cursor-pointer" onClick={() => scrollToSection('header')}>
